@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;700;900&display=swap');
+@import '../../node_modules/normalize.css/normalize.css';
+@import './header.css';
+@import './back-to-top.css';
+
+/* Common */
+body {
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 1.125rem;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: url('../images/background.jpg') no-repeat center;
+  background-size: cover;
+}
+
+body.no-background {
+  background: none;
+}

@@ -1,0 +1,79 @@
+@import '../../node_modules/@fortawesome/fontawesome-free/css/all.min.css';
+
+.main-content {
+  max-width: 1024px;
+  margin: 0 auto 100px;
+  padding: 0 32px;
+}
+
+.title {
+  font-size: 4rem;
+  font-weight: 600;
+  border-bottom: 1px solid hsl(0deg 0% 80%);
+}
+
+.sub-title {
+  font-size: 3rem;
+  font-weight: 500;
+}
+
+.contact-list {
+  overflow: auto;
+}
+
+.contact-list__table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.contact-list__table th,
+.contact-list__table td {
+  border: 1px solid hsl(0deg 0% 90%);
+  padding: 8px;
+}
+
+.contact-list__table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: hsl(355deg 100% 65%);
+  color: hsl(0deg 0% 100%);
+}
+
+.contact-list__table .contact-list__row:nth-child(even) {
+  background-color: hsl(355deg 30% 98%);
+}
+
+.contact-list__table .contact-list__row:hover {
+  background-color: hsl(355deg 30% 95%);
+}
+
+.contact-list__row--disabled {
+  opacity: 0.5;
+}
+
+.contact-list__row--disabled .contact-list__action-item {
+  pointer-events: none;
+}
+
+.contact-list__actions {
+  text-align: center;
+}
+
+.contact-list__action-item {
+  cursor: pointer;
+}
+
+.contact-list__action-item + .contact-list__action-item {
+  margin-left: 8px;
+}
+
+@media (max-width: 770px) {
+  .title {
+    font-size: 3rem;
+  }
+
+  .sub-title {
+    font-size: 2.25rem;
+  }
+}

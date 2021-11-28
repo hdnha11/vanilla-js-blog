@@ -1,0 +1,38 @@
+.like-button {
+  width: 58px;
+  margin: 16px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+}
+
+.like-button--disabled {
+  pointer-events: none;
+}
+
+.like-button__count {
+  color: hsl(355deg 100% 65%);
+  font-size: 1.25rem;
+  font-weight: 400;
+  letter-spacing: 0.3;
+  line-height: 2.25rem;
+}
+
+.like-button__icon {
+  width: 58px;
+  height: 58px;
+  border: 1px solid hsl(355deg 100% 65%);
+  border-radius: 50%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.like-button--disabled .like-button__count {
+  color: hsl(0deg 0% 50%);
+}
+
+.like-button--disabled .like-button__icon {
+  opacity: 0.4;
+  border-color: hsl(0deg 0% 50%);
+}

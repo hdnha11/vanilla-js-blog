@@ -1,0 +1,16 @@
+{
+  "name": "vanilla-js-blog",
+  "version": "1.0.0",
+  "description": "Personal Blog with Vanilla JS",
+  "main": "index.js",
+  "scripts": {
+    "install:api": "cd api && npm install",
+    "install:ui": "cd ui && npm install",
+    "postinstall": "npm run install:api && npm run install:ui",
+    "start:api": "cd api && npm start",
+    "start:ui": "cd ui && npm start",
+    "build:ui": "cd ui && npm run build"
+  },
+  "author": "Nha Hoang <hdnha11@gmail.com>",
+  "license": "ISC"
+}

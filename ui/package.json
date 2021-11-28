@@ -1,0 +1,19 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "Personal Blog",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "author": "Nha Hoang <hdnha11@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@parcel/transformer-image": "^2.0.0",
+    "parcel": "^2.0.0"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.4",
+    "normalize.css": "^8.0.1"
+  }
+}
